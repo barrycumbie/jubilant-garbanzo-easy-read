@@ -19,7 +19,7 @@ _reading data for dev easy 🦭_
   </li>
 </ul>
 ```
-> [link to repo code]https://github.com/barrycumbie/supreme-sniffle-solutions/blob/4ef01f6869ccce2acbc6af0d11a1febc739e1b13/dev-able-solution.html#L94-L103
+> [link to repo code](https://github.com/barrycumbie/supreme-sniffle-solutions/blob/4ef01f6869ccce2acbc6af0d11a1febc739e1b13/dev-able-solution.html#L94-L103)
 
 ## 2️⃣ Encode it as a data object
 
