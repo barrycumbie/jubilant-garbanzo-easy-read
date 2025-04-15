@@ -2,6 +2,13 @@
 
 // fetch('../data/parkingData.json')
 fetch('https://barrycumbie.github.io/jubilant-garbanzo-easy-read/data/parkingData.json')
+
+// {
+//     mode: 'cors',
+//     headers: {
+//       'Access-Control-Allow-Origin':'*'
+//     }
+//   }
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');

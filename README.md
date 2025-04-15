@@ -266,6 +266,36 @@ function displayParkingData(parkingData) {
 - Hey, it's something!
 - Now I'd consume more of my old app and interface from my [original hard coded dev able](https://barrycumbie.github.io/supreme-sniffle-solutions/dev-able-solution.html)
 
+## 7️⃣ lastly: TEST TEST TEST
+
+- it was all working on my friendly, local dev box via `Live Server`
+- move everything up to my repo
+- and failed miserable on `GitHub Pages` deployment
+- the trusty `console` helped me track it down 
+- and I thought I could have a `CORS` (cross origin resource sharing) error
+- so I pointed my `fetch` to the real `url`
+
+```diff
+- fetch('../data/parkingData.json')
++ fetch('https://barrycumbie.github.io/jubilant-garbanzo-easy-read/data/parkingData.json')
+```
+
+- and (after lotta waiting for the changes to show up), working again 👏🏻👏🏻👏🏻
+- you can 🛑stop there, or mess around with the commented out code I have:
+
+```js
+// {
+//     mode: 'cors',
+//     headers: {
+//       'Access-Control-Allow-Origin':'*'
+//     }
+//   }
+```
+
+- what you would do is add in that `code` 
+- and toggle back to just the `'../data/parkingData.json'` 
+- and see if that works
+- (mine was working so I stopped there)
 
 🍻Cheers!
 (👆🏻those are sodas)
