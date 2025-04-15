@@ -89,7 +89,7 @@ _reading data for dev easy 🦭_
 }  
 ```
 
-**😎 Cool! **
+**😎Cool! **
 
 - Note: I could "refactor" this and get my dates/times consistent or add in other fields
 - Anyone try ChatGPT to spit out some sample json? Why not? 
